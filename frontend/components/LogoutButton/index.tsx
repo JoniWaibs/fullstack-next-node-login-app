@@ -9,7 +9,7 @@ const LogoutButton = (): JSX.Element | null => {
   const router = useRouter();
   const { currentUser } = useSessionProviderContext();
 
-  if (!currentUser) return null;
+  if (!currentUser?.name) return null;
 
   const { doClientSideRequest } = useRequest({
     method: AuthServiceMethods.SIGN_OUT,

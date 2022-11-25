@@ -23,7 +23,7 @@ const Public = () => {
         <span className={styles.title}>Url: {url}</span>
 
         <div className={styles.description}>
-          {currentUser ? (
+          {currentUser?.name ? (
             <p>
               {" "}
               User: <span>{currentUser?.name}</span>
