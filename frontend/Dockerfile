@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /src
+WORKDIR /
 COPY package.json .
 RUN yarn install
 COPY . .

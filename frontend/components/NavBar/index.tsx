@@ -12,7 +12,7 @@ const NavBar = (): JSX.Element => {
   const router = useRouter();
   const url = router.pathname;
 
-  if (!currentUser) navBarItems.push(pages.SIGN_IN);
+  if (!currentUser?.name) navBarItems.push(pages.SIGN_IN);
 
   const redirect = (navItemPage: pages) => router.push(`/${navItemPage}`);
 
