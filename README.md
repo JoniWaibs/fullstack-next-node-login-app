@@ -64,6 +64,12 @@ For example: You can test the app by logging with this credentials
 }
 ```
 
+## Clone repository
+
+```bash
+git clone https://github.com/JoniWaibs/fullstack-next-node-login-app.git
+```
+
 ## Run app
 
 1 - First, build image and run the development server:
