@@ -81,6 +81,14 @@ If you dont have Docker installed, you can launch app simply running
 **`yarn dev`** for frontend & **`yarn start-dev`** for backend
 If you prefer use npm, you can do it :wink:
 
+## Test
+
+Backend test coverage almost 100%
+
+<div style="display:inline-flex;gap:5px">
+  <img src="/backend/src/assets/backend_tests.png" alt="Public url with user not logged">
+</div>
+
 ## Nice To Have
 
 Due to lack of time I have not been able to add features that I liked :disappointed: , for example:
